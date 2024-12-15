@@ -1,5 +1,6 @@
 ### Code Summary: Define the Vector Search Index in a JSON file using CLI
 
+```plaintext
 Define the Vector Search Index in a JSON file:
 
 Define the data and collection you want to index. Designate the type as vectorSearch and create a name that allows you to easily identify the purpose of the index. Finally, define the fields being indexed, and specify the type, number of dimensions, and similarity.
@@ -182,9 +183,11 @@ atlas clusters search indexes list \
 
 
 
+```
 
 
 ### Code Summary: Creating a Vector Search Index Using MongoDB Shell
+```plaintext
 
 Creating a Vector Search Index Using MongoDB Shell:
 
@@ -365,3 +368,5 @@ This will return the information we’re accustomed to seeing when we run this c
     ],
   },
 ];
+
+```
